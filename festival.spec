@@ -6,7 +6,7 @@
 Name: festival
 Summary: Speech synthesis and text-to-speech system
 Version: %{festivalversion}
-Release: 26%{?dist}
+Release: 28%{?dist}
 
 URL: http://www.cstr.ed.ac.uk/projects/festival/
 Group: Applications/Multimedia
@@ -907,6 +907,12 @@ fi
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.96-28
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.96-27
+- Mass rebuild 2013-12-27
+
 * Thu Jun 20 2013 Than Ngo <than@redhat.com> - 1.96-26
 - add BR on texi2html instead tetex, minimal tex BR
 
